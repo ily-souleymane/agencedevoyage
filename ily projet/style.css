@@ -1,0 +1,724 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.topbar
+{
+    width: 100%;
+    height: 100%;
+    background-color: #2AA997;
+    top: 0px;
+}
+
+body > div > div > div:nth-child(1) > i
+{
+    color: white;
+    padding: 8px;
+}
+.fab
+{
+    color: white;
+    padding: 10px;
+}
+
+
+
+header
+{
+    background-position: fixed;
+    background-color:rgb(252, 252, 252);
+}
+
+
+
+.navbar .navbar-brand
+{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 70px;
+    
+}
+
+span
+{ 
+    color: #2AA997;
+}
+.fas
+{
+    color: black;
+}
+
+.nav-link
+{
+    color: black !important;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 450;
+    margin: 0px 20px 0 20px;
+
+}
+
+#navbarNav > ul > li > a:hover
+
+{
+    border-bottom: 3px solid #2AA997;
+    transition: 0.2s;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 18px;
+    
+}
+
+.navbar-nav
+{
+    padding-right: 70px;
+}
+
+
+
+
+/* slider */
+
+#banner
+{
+    background-image: linear-gradient(rgba( 0, 0, 0, 0.5), rgba( 0 ,0,  100, 0.5)),url(images/home_slider.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.banner-titre
+{
+position: relative;
+padding-top: 250px;
+}
+
+.grand-titre
+{
+    font-weight: bold;
+    padding: 15px;
+    font-family: 'Lobster', cursive;  
+}
+
+.petit-titre
+{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    font-style: italic;
+}
+
+.btn 
+{
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+    border: 1px solid #2AA997;
+    background-color:black ;
+    border-radius: 20px;
+}
+
+a:hover
+{
+    text-decoration: none;
+    color: #2AA997;
+    transition: 0.2s;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+/* -------------------service----------------------- */
+
+.service
+{
+    padding: 100px 0px 60px ;
+    height: 100%;
+    background-color: rgb(252, 252, 252);
+    width: 100%;
+
+}
+
+.rowsetting
+{
+    padding: 60px 40px !important;
+}
+
+.img
+{
+    border-radius:50%;
+    background-color: #2AA997 !important;
+    border:1px solid #2AA997;
+    width: 100px;
+    height: 100px;
+}
+.fas
+{
+
+    padding-top: 25px;
+}
+
+.service h1
+{
+    font-weight: bold !important;
+    font-size: 35px !important;
+    padding: 10px;
+}
+
+.service p
+{
+    font-size: 20px;
+}
+
+
+
+
+
+/* -----------------------------DESTINATION-------------------- */
+
+.destination
+{
+    padding: 40px 0px 60px ;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    margin: 0px
+}
+ 
+body > section.destination.text-center > div > div > div:nth-child(1) > div
+{
+    height: 480px;
+}
+
+body > section.destination.text-center > div > div > div:nth-child(1) > div > img
+
+{
+    height: 300px;
+}
+
+body > section.destination.text-center > div > div > div:nth-child(3) > div
+
+{
+    height: 480px;
+}
+
+body > section.destination.text-center > div > div > div:nth-child(3) > div > img
+{
+    height: 300px;
+}
+
+body > section.destination.text-center > div > div > div:nth-child(4) > div
+{
+    height: 480px;
+
+}
+
+body > section.destination.text-center > div > div > div:nth-child(4) > div > img
+
+{
+    height: 300px;
+}
+
+body > section.destination.text-center > div > div > div:nth-child(2) > div
+{
+    height: 480px;
+
+}
+
+body > section.destination.text-center > div > div > div:nth-child(2) > div > img
+
+{
+    height: 300px;
+}
+.destination h2
+{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 50px;
+}
+
+
+body > section.destination.text-center > div > div > div > div > div > a
+
+{
+    background-color: #2AA997;
+}
+
+.prix
+{
+    font-weight: bold;
+    color: black;
+}
+
+/* *************client************ */
+
+
+#client
+
+{
+    padding: 40px 0px 60px ;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    margin: 0px;
+}
+
+.client-text
+{
+    padding: 80px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#client > div > div > div > div
+
+{
+    height: 350px;
+}
+
+
+#client > div > div > div > div > img
+
+{
+    margin-left: 150px !important;
+}
+
+
+#client > div > div > div > div
+
+{
+    padding-top: 30px;
+}
+
+#client > div > div > div > div > div > h5
+{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#client > div > div > div > div > span > i
+
+{
+    color: #E7711B;
+}
+
+
+
+/* ***********************footer*************** */
+
+
+.footer-bottom
+{
+    background-color: #2AA997;
+    height: 100%;
+    width:100%;
+}
+body > footer > div > div > div > h4
+
+{
+color: white;
+font-size: 20px;
+text-transform: uppercase;
+padding: 40px;
+
+}
+
+body > footer > div > div > div > p
+{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+body > footer > div > div > div > a > i
+
+{
+    font-weight: 400;
+    font-size: 25px;
+}
+
+body > footer > div > div > div > ul
+{
+    list-style: none;
+}
+body > footer > div > div > div > ul > li > a
+
+{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+body > footer > div > div > div > ul > li > a:hover
+{
+    color: rgb(6, 12, 11);
+}
+
+body > footer > div > div > div > i.fas
+
+{
+    color: white;
+    font-size: 25px;
+}
+
+body > footer > section > div > div > div > h5 
+{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0%;
+    box-shadow: inset 1px 12px 17px 9PX #ffffff26;
+    text-shadow: 0 0 black;
+
+}
+
+
+
+/* **********************offre.html************************* */
+
+
+/* ***********************banniere offre*********************** */
+
+.banniere
+{
+    background-image:linear-gradient(rgba( 0, 0, 0, 0.5), rgba( 0 ,0,  100, 0.5)), url(images/listing_9.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.big-titre
+{
+    position: relative;
+    top: 300px;
+}
+
+.big-titre .nos-offres
+{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Lobster', cursive;
+}
+
+/* ***********************nos offres d'hotels********************** */
+
+
+.avantages-hotels
+{
+    height: 100%;
+    width: 100%;
+    padding: 100px 30px 60px 30px;
+    background-color: rgb(248, 247, 247);
+}
+ 
+body > section.avantages-hotels.text-center > div > div > div > div > div > h5
+
+{
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    color: #2AA997;
+}
+
+body > section.avantages-hotels.text-center > div > h2
+{
+    font-weight: bold;
+    padding: 30px;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+body > section.avantages-hotels.text-center > div > div > div > div > div > p
+{
+    font-size: 18px;
+}
+
+body > section.avantages-hotels.text-center > div > div > div > div > ul > li
+
+{
+    font-size: 18px;
+    font-style: italic;
+}
+
+body > section.avantages-hotels.text-center > div > div > div > div > div > a
+
+{
+    font-size: 18px;
+    color: white;
+    background-color: #2AA997;
+    border: 1px solid #2AA997;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+body > section.avantages-hotels.text-center > div > div > div > div > div > a:hover
+{
+    color: black;
+    font-size: 20px;
+}
+
+
+/* *****************************nos offres vols**************************** */
+
+
+.avantages-vols
+{
+    height: 100%;
+    width: 100%;
+    padding: 100px 30px 60px 30px;
+    background-color: rgb(248, 247, 247);
+}
+
+
+body > section.avantages-vols.text-center > div > div > div > div > div > h5
+
+{
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    color: #2AA997;
+}
+
+
+body > section.avantages-vols.text-center > div > h2
+{
+    font-weight: bold;
+    padding: 30px;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+body > section.avantages-hotels.text-center > div > div > div > div > div > p
+{
+    font-size: 18px;
+}
+
+body > section.avantages-vols.text-center > div > div > div > div > ul > li
+
+{
+    font-size: 18px;
+    font-style: italic;
+}
+
+body > section.avantages-vols.text-center > div > div > div > div > div > a
+
+{
+    font-size: 18px;
+    color: white;
+    background-color: #2AA997;
+    border: 1px solid #2AA997;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+body > section.avantages-vols.text-center > div > div > div > div > div > a:hover
+{
+    color: black;
+    font-size: 20px;
+}
+
+
+
+
+/* ****************************LES NEWS**************** */
+
+#banner-news
+{
+    background-image:linear-gradient(rgba( 0, 0, 0, 0.5), rgba( 0 ,0,  20, 0.5)), url(images/amenities-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.banner-titre-news
+{
+    padding-top: 300px;
+}
+
+.news-1
+{
+    height: 100%;
+    width: 100%;
+    padding: 50px 30px 60px 30px;
+    background-color: rgba(239, 239, 243, 0.5);
+}
+
+body > section.news-1.text-center > div > div > div > h3
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+body > section.news-1.text-center > div > div > div > p:nth-child(2)
+{
+    font-size: 18px !important;
+    padding: 15px;
+}
+
+body > section.news-1.text-center > div > div > div > p
+{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+}
+
+body > section.news-1.text-center > div > div > div > button
+
+{
+    padding: 5px;
+    background-color:#2AA997;
+    border-radius: 16px;
+}
+body > section.news-1.text-center > div > div > div > button > a
+{
+    color: white;
+}
+
+body > section.news-1.text-center > div > div > div > button:hover
+{
+    background-color: black;
+}
+
+
+/* ****************news 2******************************** */
+
+
+body > section.news-1.text-center > div > div > div > div > div > h3
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+body > section.news-1.text-center > div > div > div > div > div > p:nth-child(2)
+
+{
+    font-size: 18px !important;
+    padding: 15px; 
+}
+
+body > section.news-1.text-center > div > div > div > div > div > p
+
+{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+}
+
+body > section.news-1.text-center > div > div > div > div > div > button
+
+{
+    padding: 5px;
+    background-color:#2AA997;
+    border-radius: 16px;
+}
+
+body > section.news-1.text-center > div > div > div > div > div > button:hover
+{
+    background-color: black;
+}
+
+body > section.news-1.text-center > div > div > div > div > div > button > a
+{
+    color: white;
+}
+
+
+/* *******************************contact**************************** */
+
+
+#banner-contact
+{
+background-image: url(images/man.png);
+background-position: center;
+background-repeat: no-repeat;
+height: 100vh;
+width: 100%;
+
+}
+
+.formulaire
+{
+    background-image:linear-gradient(rgba( 0, 0, 0, 0.5), rgba( 0 ,0,  20, 0.5)), url(images/contact_background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+body > section.formulaire.text-center > div > h2
+{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "lobster",sans-serif;
+    letter-spacing: 2px;
+    color: white;
+    padding-top: 40px;
+}
+
+body > section.formulaire.text-center > div > div
+{
+    padding-top: 80px;
+}
+
+body > section.formulaire.text-center > div > div > div > form > div > label
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+}
+
+#nom
+{
+    width: 300px;
+    display: inline;
+}
+
+body > section.formulaire.text-center > div > div > div > form > button
+{
+    padding: 10px;
+    border: none;
+    background-color: #2AA997;
+}
+
+body > section.formulaire.text-center > div > div > div > form > button:hover
+{
+    color: black;
+    font-size: 20px;
+    font-family: "lobster",sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
